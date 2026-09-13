@@ -1,0 +1,29 @@
+BACKEND 
+
+1st => open terminal
+2nd => install (npm init -y and npm install express)
+3rd => changes in package.json (add "type":"module"   and in script add "dev":"node nameOfruningFile.js")
+
+
+"scripts": {
+    "dev": "nodemon server.js",    ///in development we us this             
+    "start": "node server.js"       <-- Or in production we use this
+  },
+
+
+
+
+  
+npm i dotenv
+
+npm i @upstash/ratelimit@2.0.5 @upstash/redis@1.34.9
+
+
+frontend
+
+npm i react-router
+npm i react-hot-toast
+
+npm  i lucide-react   for icon
+
+npm i axios   replacing fetch api with axios
